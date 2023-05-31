@@ -64,7 +64,15 @@ https://www.udemy.com/course/cientista-de-dados
 
 ## <a name="parte1">1 - Seção 1: Apresentação</a>
 
+1. Instruções Gerais
+2. Apresentação
 
+![/imgs/01-02-formacao.png](/imgs/01-02-formacao.png)
+
+3. Material para Download
+4. Instruções sobre Material para Download
+
+[https://www.eia.ai/material_download](https://www.eia.ai/material_download)
 
 [Voltar ao Índice](#indice)
 
@@ -73,7 +81,11 @@ https://www.udemy.com/course/cientista-de-dados
 
 ## <a name="parte2">2 - Seção 2: R: Configuração do Ambiente</a>
 
+5. Apresentação
+6. Instalação
 
+- [https://cran-r.c3sl.ufpr.br/](https://cran-r.c3sl.ufpr.br/)
+- [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
 
 [Voltar ao Índice](#indice)
 
@@ -82,7 +94,14 @@ https://www.udemy.com/course/cientista-de-dados
 
 ## <a name="parte3">3 - Seção 3: Python: Configuração do Ambiente</a>
 
+7. Escolhendo o Ambiente
+8. Usando Google Colab
+9. Apresentação do Anaconda
+10. Instalação
 
+- [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
+
+11. Instruções sobre novas Bibliotecas
 
 [Voltar ao Índice](#indice)
 

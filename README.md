@@ -64,13 +64,13 @@ https://www.udemy.com/course/cientista-de-dados
 
 ## <a name="parte1">1 - Seção 1: Apresentação</a>
 
-1. Instruções Gerais
-2. Apresentação
+### 1. Instruções Gerais
+### 2. Apresentação
 
 ![/imgs/01-02-formacao.png](/imgs/01-02-formacao.png)
 
-3. Material para Download
-4. Instruções sobre Material para Download
+### 3. Material para Download
+### 4. Instruções sobre Material para Download
 
 [https://www.eia.ai/material_download](https://www.eia.ai/material_download)
 
@@ -81,8 +81,8 @@ https://www.udemy.com/course/cientista-de-dados
 
 ## <a name="parte2">2 - Seção 2: R: Configuração do Ambiente</a>
 
-5. Apresentação
-6. Instalação
+### 5. Apresentação
+### 6. Instalação
 
 - [https://cran-r.c3sl.ufpr.br/](https://cran-r.c3sl.ufpr.br/)
 - [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
@@ -94,14 +94,28 @@ https://www.udemy.com/course/cientista-de-dados
 
 ## <a name="parte3">3 - Seção 3: Python: Configuração do Ambiente</a>
 
-7. Escolhendo o Ambiente
-8. Usando Google Colab
-9. Apresentação do Anaconda
-10. Instalação
+### 7. Escolhendo o Ambiente
+
+![imgs\03_secao\03_07_1_escolhe_ambiente.jpeg](imgs\03_secao\03_07_1_escolhe_ambiente.jpeg)
+
+![imgs\03_secao\03_07_2_google_colab.jpeg](imgs\03_secao\03_07_2_google_colab.jpeg)
+
+![imgs\03_secao\03_07_3_entao.jpeg](imgs\03_secao\03_07_3_entao.jpeg)
+
+![imgs\03_secao\03_07_4_dicas_colabG.jpeg](imgs\03_secao\03_07_4_dicas_colabG.jpeg)
+
+### 8. Usando Google Colab
+### 9. Apresentação do Anaconda
+
+![imgs\03_secao\03_09_1_fontes.jpeg](imgs\03_secao\03_09_1_fontes.jpeg)
+
+![imgs\03_secao\03_09_2_libs.jpeg](imgs\03_secao\03_09_2_libs.jpeg)
+
+### 10. Instalação
 
 - [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 
-11. Instruções sobre novas Bibliotecas
+### 11. Instruções sobre novas Bibliotecas
 
 [Voltar ao Índice](#indice)
 
@@ -110,7 +124,138 @@ https://www.udemy.com/course/cientista-de-dados
 
 ## <a name="parte4">4 - Seção 4: Introdução ao R</a>
 
+### 12. Introdução
 
+![imgs\04_secao\04_12_1_R.jpeg](imgs\04_secao\04_12_1_R.jpeg)
+
+![imgs\04_secao\04_12_2_R.jpeg](imgs\04_secao\04_12_2_R.jpeg)
+
+![imgs\04_secao\04_12_3_R.jpeg](imgs\04_secao\04_12_3_R.jpeg)
+
+![imgs\04_secao\04_12_4_R.jpeg](imgs\04_secao\04_12_4_R.jpeg)
+
+![imgs\04_secao\04_12_5_R.jpeg](imgs\04_secao\04_12_5_R.jpeg)
+
+### 13. Introdução ao RStudio
+
+![imgs\04_secao\04_13_1_RCore.jpeg](imgs\04_secao\04_13_1_RCore.jpeg)
+
+![imgs\04_secao\04_13_2_Rstudio.jpeg](imgs\04_secao\04_13_2_Rstudio.jpeg)
+
+![imgs\04_secao\04_13_3_Rstudio.jpeg](imgs\04_secao\04_13_3_Rstudio.jpeg)
+
+![imgs\04_secao\04_13_4_Rstudio.jpeg](imgs\04_secao\04_13_4_Rstudio.jpeg)
+
+### 14. Pacotes
+
+![imgs\04_secao\04_14_1_pacotes.jpeg](imgs\04_secao\04_14_1_pacotes.jpeg)
+
+![imgs\04_secao\04_14_2_pacotes.jpeg](imgs\04_secao\04_14_2_pacotes.jpeg)
+
+![imgs\04_secao\04_14_3_pacotes.jpeg](imgs\04_secao\04_14_3_pacotes.jpeg)
+
+![imgs\04_secao\04_14_4_pacotes.jpeg](imgs\04_secao\04_14_4_pacotes.jpeg)
+
+![imgs\04_secao\04_14_5_pacotes.jpeg](imgs\04_secao\04_14_5_pacotes.jpeg)
+
+![imgs\04_secao\04_14_6_pacotes.jpeg](imgs\04_secao\04_14_6_pacotes.jpeg)
+
+![imgs\04_secao\04_14_7_pacotes.jpeg](imgs\04_secao\04_14_7_pacotes.jpeg)
+
+![imgs\04_secao\04_14_8_pacotes.jpeg](imgs\04_secao\04_14_8_pacotes.jpeg)
+
+### 15. Aspectos Diversos
+
+![imgs\04_secao\04_15_1_aspectos.jpeg](imgs\04_secao\04_15_1_aspectos.jpeg)
+
+![imgs\04_secao\04_15_2_aspectos.jpeg](imgs\04_secao\04_15_2_aspectos.jpeg)
+
+![imgs\04_secao\04_15_3_aspectos.jpeg](imgs\04_secao\04_15_3_aspectos.jpeg)
+
+![imgs\04_secao\04_15_4_aspectos.jpeg](imgs\04_secao\04_15_4_aspectos.jpeg)
+
+![imgs\04_secao\04_15_5_aspectos.jpeg](imgs\04_secao\04_15_5_aspectos.jpeg)
+
+![imgs\04_secao\04_15_6_aspectos.jpeg](imgs\04_secao\04_15_6_aspectos.jpeg)
+
+### 16. Tipos de Dados e Operadores
+
+![imgs\04_secao\04_16_1_tipoDados.jpeg](imgs\04_secao\04_16_1_tipoDados.jpeg)
+
+![imgs\04_secao\04_16_2_tipoDados.jpeg](imgs\04_secao\04_16_2_tipoDados.jpeg)
+
+![imgs\04_secao\04_16_3_tipoDados.jpeg](imgs\04_secao\04_16_3_tipoDados.jpeg)
+
+![imgs\04_secao\04_16_4_tipoDados.jpeg](imgs\04_secao\04_16_4_tipoDados.jpeg)
+
+![imgs\04_secao\04_16_5_tipoDados.jpeg](imgs\04_secao\04_16_5_tipoDados.jpeg)
+
+![imgs\04_secao\04_16_6_tipoDados.jpeg](imgs\04_secao\04_16_6_tipoDados.jpeg)
+
+![imgs\04_secao\04_16_7_tipoDados.jpeg](imgs\04_secao\04_16_7_tipoDados.jpeg)
+
+### 17. Estruturas de Dados
+
+![imgs\04_secao\04_17_1_estruturaDados.jpeg](imgs\04_secao\04_17_1_estruturaDados.jpeg)
+
+![imgs\04_secao\04_17_2_estruturaDados.jpeg](imgs\04_secao\04_17_2_estruturaDados.jpeg)
+
+![imgs\04_secao\04_17_3_estruturaDados.jpeg](imgs\04_secao\04_17_3_estruturaDados.jpeg)
+
+![imgs\04_secao\04_17_4_estruturaDados.jpeg](imgs\04_secao\04_17_4_estruturaDados.jpeg)
+
+![imgs\04_secao\04_17_5_estruturaDados.jpeg](imgs\04_secao\04_17_5_estruturaDados.jpeg)
+
+![imgs\04_secao\04_17_6_estruturaDados.jpeg](imgs\04_secao\04_17_6_estruturaDados.jpeg)
+
+![imgs\04_secao\04_17_7_estruturaDados.jpeg](imgs\04_secao\04_17_7_estruturaDados.jpeg)
+
+### 18. Funções
+
+![imgs\04_secao\04_18_1_funcoes.jpeg](imgs\04_secao\04_18_1_funcoes.jpeg)
+
+![imgs\04_secao\04_18_2_funcoes.jpeg](imgs\04_secao\04_18_2_funcoes.jpeg)
+
+### 19. Ajuda
+
+```
+help(sd)
+```
+![imgs\04_secao\04_19_1_help.jpeg](imgs\04_secao\04_19_1_help.jpeg)
+
+![imgs\04_secao\04_19_2_help.jpeg](imgs\04_secao\04_19_2_help.jpeg)
+
+### 20. Principais Funções
+
+![imgs\04_secao\04_20_1_PrincFuncoes.jpeg](imgs\04_secao\04_20_1_PrincFuncoes.jpeg)
+
+![imgs\04_secao\04_20_2_PrincFuncoes.jpeg](imgs\04_secao\04_20_2_PrincFuncoes.jpeg)
+
+![imgs\04_secao\04_20_3_PrincFuncoes.jpeg](imgs\04_secao\04_20_3_PrincFuncoes.jpeg)
+
+![imgs\04_secao\04_20_4_PrincFuncoes.jpeg](imgs\04_secao\04_20_4_PrincFuncoes.jpeg)
+
+### 21. Importando Dados
+
+![imgs\04_secao\04_21_1_importDados.jpeg](imgs\04_secao\04_21_1_importDados.jpeg)
+
+![imgs\04_secao\04_21_2_importDados.jpeg](imgs\04_secao\04_21_2_importDados.jpeg)
+
+![imgs\04_secao\04_21_3_importDados.jpeg](imgs\04_secao\04_21_3_importDados.jpeg)
+
+### 22. Programação
+
+![imgs\04_secao\04_22_1_programacao.jpeg](imgs\04_secao\04_22_1_programacao.jpeg)
+
+![imgs\04_secao\04_22_2_programacao.jpeg](imgs\04_secao\04_22_2_programacao.jpeg)
+
+![imgs\04_secao\04_22_3_programacao.jpeg](imgs\04_secao\04_22_3_programacao.jpeg)
+
+![imgs\04_secao\04_22_4_programacao.jpeg](imgs\04_secao\04_22_4_programacao.jpeg)
+
+### 23. Referências Adicionais
+
+- Livro: "R In Action"
 
 [Voltar ao Índice](#indice)
 

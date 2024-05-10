@@ -365,17 +365,252 @@ sqrt(2500)
 
 ### 28. Estruturas de Dados
 
+Vetores
+```{r}
+X  = c(1,2,3,4,5,6)  
+X 
+X[1]
+X[1] = 10
+X[1]
+```
+Vetores de outros tipos
+```{r}
+Y = c("a","b","c","d")
+Y
+Z = c(1L,2L,3L)
+Z
+class(Z)
+```
+Matrizes
+```{r}
+VADeaths
+colnames(VADeaths)
+rownames(VADeaths)
+```
+Matrizes
+```{r}
+#só coluna 1
+VADeaths[,1]
+#so linha 1
+VADeaths[1,]
+#linhas 1 até 3
+VADeaths[1:3,]
+#linhas especificas
+VADeaths[c(1,3,5),]
+```
+Data Frame
+```{r}
+longley
+#funcina como matriz
+longley[,1:3]
+#acessar coluna com $ - resultado como vetor
+longley$Unemployed
+#ou nome - resultado com coluna
+longley['Unemployed']
+```
+Listas
+```{r}
+ability.cov 
+#acessando elementos
+ability.cov$cov
+ability.cov[1]
+#verificando que são objetos diferentes
+class( ability.cov$cov)
+class( ability.cov$center)
+#acesando elemento dentro da lista
+ability.cov$cov[,1:3]
+```
+Fatores
+```{r}
+#fatores
+state.region
+```
+
 ### 29. Funções
+
+```{r}
+getwd()
+#sem parenteses - retona a função (help) Calcula o desvio padrão
+sd
+head(x=iris, n=2)
+head(iris)
+head(iris,2)
+# head(n=22) - Erro, falta parametro
+```
 
 ### 30. Ajuda
 
+```{r}
+help(sd)
+# Tecla F1 
+head(iris)
+```
+
 ### 31. Principais Funções
+
+Head e Tail (retorna primeiros registro - ultimos )
+```{r}
+esoph
+#default 6 primeiras 
+head(esoph)
+# 6 ultimas linhas
+tail(esoph)
+#10  linhas
+head(esoph, n=10)
+```
+Dimensões
+```{r}
+# linhas - Colunas
+dim(esoph)
+# somente o numero de linhas
+dim(esoph)[1]
+```
+Comprimento
+```{r}
+#se usar com objeto bidimensional vai retornar colunas
+length(islands)
+```
+Nomes de Colunas
+```{r}
+colnames(esoph)
+```
+Nome de Linhas
+```{r}
+rownames(esoph)
+```
+Resumo
+```{r}
+summary(esoph)
+```
+Escolher Arquivo
+```{r}
+# abre caixa para abrir um arquivo - retorna o caminho do arquivo
+x = file.choose()
+x
+```
 
 ### 32. Importando Dados
 
+```{r}
+# instalando a lib
+#install.packages("openxlsx")
+#carregar lib
+library(openxlsx)
+```
+Texto
+```{r}
+#texto
+x = read.csv(file.choose(),header = TRUE, sep = ",")
+x
+x = read.csv("Credit.csv",header = TRUE, sep = ",")
+x
+```
+Excel
+```{r}
+dados = read.xlsx("Credit.xlsx",sheet= 1)
+dados
+```
+
 ### 33. Programação
 
+
+If
+```{r}
+a = 10
+b = 20
+if (a < b)
+{
+  print("Verdadeiro")
+}else
+{
+  print("Falso") 
+}
+```
+Ifelse
+```{r}
+x = ifelse(a < 10,"A é maior","A não é maior")
+x
+```
+For
+```{r}
+for (i in 1:10) {
+  print(i)
+  }
+```
+While
+```{r}
+a = 1
+while(a <= 10)
+{
+  print(a)
+  a = a+1
+}
+```
+Função
+```{r}
+parouimpar <- function(x) {
+  
+  return(ifelse(x%%2==0,"Par","impar"))
+  
+}
+
+parouimpar(5)
+parouimpar(12)
+```
+
+
+
 ### 34. Faça você mesmo
+
+---
+Formação Cientista de Dados - Prof. Fernando Amaral
+Faça você mesmo
+---
+
+1.Crie duas variáveis Ana e Paulo e atribua a elas valores de suas idades, sendo respectivamente 8 e 12 anos. As variáveis devem ser do tipo inteiro. Imprima no console "A menina é mais velha" ou "O menino é mais velho" como resultado de um teste lógico.
+```{r}
+Ana=8L
+Paulo=12L
+if (Ana > Paulo)
+  print("A menina é mais velha")else
+  print("O menino é mais velho")
+```
+BOD é um objeto existente no R. Verifique qual a classe deste objeto.
+
+```{r}
+class(BOD)
+```
+Crie um vetor que armazene números de 1 a 10 e posteriormente imprima os valores pares
+```{r}
+numeros = c(1,2,3,4,5,6,7,8,9,10)
+for (i in numeros) {
+  if (numeros[i]%%2==0)
+    print(numeros[i]) 
+}
+```
+women é um dataframe existente no R. Imprima as 10 últimas linhas
+```{r}
+tail(women, n=10)
+```
+Use a função plot do R para produzir um gráfico do atributos Sepal.Width e Petal.Length do conjunto de dados Iris. O gráfico deve imprimir apenas das linhas 50 até 100.
+```{r}
+novairis = iris[50:100,c(2,3)]
+plot(novairis)
+```
+Crie dois vetores de tamanhos iguais, some as posições equivalentes dos vetores e imprima o resultado.
+```{r}
+vet1 = c(1,2,3,4)
+vet2 = c(4,3,2,1)
+print(vet1 + vet2)
+```
+Imprima o número de linhas, de colunas, nomes das linhas e nome das colunas do conjunto de dados CO2.
+```{r}
+dim(CO2)[1]
+dim(CO2)[2]
+rownames(CO2)
+colnames(CO2)
+```
+
 
 
 [Voltar ao Índice](#indice)
@@ -385,6 +620,29 @@ sqrt(2500)
 
 ## <a name="parte6">6 - Seção 6: Introdução ao Python</a>
 
+### 35. Introdução
+
+### 36. Variáveis e Objetos
+
+### 37. Estruturas de Decisão
+
+### 38. Estruturas de Repetição
+
+### 39. Listas
+
+### 40. Dicionários, Sets e Tuplas
+
+### 41. Numpy
+
+### 42. Pandas
+
+### 43. Módulos e Pacotes
+
+### 44. Funções
+
+### 45. Funções Padrão
+
+### 46. Referências Adicionais
 
 
 [Voltar ao Índice](#indice)

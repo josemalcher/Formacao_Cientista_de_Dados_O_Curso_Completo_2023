@@ -264,6 +264,118 @@ help(sd)
 
 ## <a name="parte5">5 - Seção 5: Prática em R</a>
 
+### 24. Ambiente do R
+
+### 25. Aspectos Diversos
+
+Diretório de Trabalho
+```{r}
+getwd()
+setwd("c:\\dados")
+```
+Tipo do objeto
+```{r}
+class(iris)
+```
+Salvar um objeto
+```{r}
+#clona
+iristeste = iris
+#salva
+save(iristeste, file="iristeste.Rdata")
+#remove do r
+rm(iristeste)
+#testa a remoção
+iristeste
+```
+Carrega
+```{r}
+#Carrega o objeto do disco
+load(file="iristeste.Rdata")
+#testa
+iristeste
+```
+Vetor e gráfico básico
+```{r}
+x = c(12,34,56,79)
+y = c(1,6,9,14)
+plot(x,y)
+```
+
+### 26. Pacotes
+
+```{r}
+install.packages("e1071")
+library(e1071)
+```
+
+```{r}
+#decarregar pacote
+detach("package:e1071", unload=TRUE)
+#remover - desinstalar o pacote
+remove.packages("e1071")
+```
+
+```{r}
+plot(iris[,1:4])
+```
+
+### 27. Tipos de Dados e Operadores
+
+```{r}
+#declaração implicita numérico
+delta = 8
+class(delta)
+```
+L declara como inteiro
+```{r}
+delta = 8L
+class(delta)
+```
+Outros tipos
+```{r}
+logico = TRUE
+logico = F
+class(logico)
+caractere = "Texto"
+caractere = 'Texto'
+class(caractere)
+```
+Operações Matemáticas
+```{r}
+c = 2
+d = 4
+(c + d) * d
+e = (c + d) * d
+e
+```
+Testes lógicos
+```{r}
+a = 1
+b = 2
+a < b
+a == b
+
+```
+Raiz Quadrada
+```{r}
+sqrt(2500)
+```
+
+
+### 28. Estruturas de Dados
+
+### 29. Funções
+
+### 30. Ajuda
+
+### 31. Principais Funções
+
+### 32. Importando Dados
+
+### 33. Programação
+
+### 34. Faça você mesmo
 
 
 [Voltar ao Índice](#indice)

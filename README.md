@@ -327,12 +327,16 @@ plot(iris[,1:4])
 delta = 8
 class(delta)
 ```
+
 L declara como inteiro
+
 ```{r}
 delta = 8L
 class(delta)
 ```
+
 Outros tipos
+
 ```{r}
 logico = TRUE
 logico = F
@@ -361,8 +365,6 @@ Raiz Quadrada
 ```{r}
 sqrt(2500)
 ```
-
-
 ### 28. Estruturas de Dados
 
 Vetores
@@ -565,7 +567,7 @@ parouimpar(12)
 ---
 Formação Cientista de Dados - Prof. Fernando Amaral
 Faça você mesmo
----
+
 
 1.Crie duas variáveis Ana e Paulo e atribua a elas valores de suas idades, sendo respectivamente 8 e 12 anos. As variáveis devem ser do tipo inteiro. Imprima no console "A menina é mais velha" ou "O menino é mais velho" como resultado de um teste lógico.
 ```{r}
@@ -622,25 +624,119 @@ colnames(CO2)
 
 ### 35. Introdução
 
+![imgs\06_secao\06_05_01_intro.jpeg](imgs\06_secao\06_05_01_intro.jpeg)
+
 ### 36. Variáveis e Objetos
+
+![imgs\06_secao\06_36_01_variaveis.jpeg](imgs\06_secao\06_36_01_variaveis.jpeg)
+
+![imgs\06_secao\06_36_02_variaveis.jpeg](imgs\06_secao\06_36_02_variaveis.jpeg)
+
+![imgs\06_secao\06_36_03_variaveis.jpeg](imgs\06_secao\06_36_03_variaveis.jpeg)
+
+![imgs\06_secao\06_36_04_variaveis.jpeg](imgs\06_secao\06_36_04_variaveis.jpeg)
+
+![imgs\06_secao\06_36_05_variaveis.jpeg](imgs\06_secao\06_36_05_variaveis.jpeg)
+
+![imgs\06_secao\06_36_06_variaveis.jpeg](imgs\06_secao\06_36_06_variaveis.jpeg)
+
+![imgs\06_secao\06_36_07_variaveis.jpeg](imgs\06_secao\06_36_07_variaveis.jpeg)
 
 ### 37. Estruturas de Decisão
 
+![imgs\06_secao\06_37_01_estru_deci.jpeg](imgs\06_secao\06_37_01_estru_deci.jpeg)
+
+![imgs\06_secao\06_37_02_estru_deci.jpeg](imgs\06_secao\06_37_02_estru_deci.jpeg)
+
+![imgs\06_secao\06_37_03_estru_deci.jpeg](imgs\06_secao\06_37_03_estru_deci.jpeg)
+
+![imgs\06_secao\06_37_04_estru_deci.jpeg](imgs\06_secao\06_37_04_estru_deci.jpeg)
+
+![imgs\06_secao\06_37_05_estru_deci.jpeg](imgs\06_secao\06_37_05_estru_deci.jpeg)
+
 ### 38. Estruturas de Repetição
+
+![/imgs/06_secao/06_38_01_.jpg](/imgs/06_secao/06_38_01_.jpg)
+
+![/imgs/06_secao/06_38_02_for_range.jpg](/imgs/06_secao/06_38_02_for_range.jpg)
+
+![/imgs/06_secao/06_38_03_range.jpg](/imgs/06_secao/06_38_03_range.jpg)
+
+![/imgs/06_secao/06_38_05_.jpg](/imgs/06_secao/06_38_05_.jpg)
 
 ### 39. Listas
 
+- Vetor de Valores
+- Dados não precisão ser do mesmo tipo
+
+![/imgs/06_secao/06_39_01_listas.jpg](/imgs/06_secao/06_39_01_listas.jpg)
+
+- Acesso primeiro elemento - indexadas em zero - lst[0]
+- numero de elementos em uma lista - len(lst)
+
 ### 40. Dicionários, Sets e Tuplas
+
+![/imgs/06_secao/06_40_01_dicionario.jpg](/imgs/06_secao/06_40_01_dicionario.jpg)
+
+![/imgs/06_secao/06_40_02_sets.jpg](/imgs/06_secao/06_40_02_sets.jpg)
+
+![/imgs/06_secao/06_40_03_tupla.jpg](/imgs/06_secao/06_40_03_tupla.jpg)
 
 ### 41. Numpy
 
+![/imgs/06_secao/06_41_01_numpy.jpeg](/imgs/06_secao/06_41_01_numpy.jpeg)
+
+![/imgs/06_secao/06_41_02_numpy.jpeg](/imgs/06_secao/06_41_02_numpy.jpeg)
+
 ### 42. Pandas
+
+![/imgs/06_secao/06_42_01_pandas.jpeg](/imgs/06_secao/06_42_01_pandas.jpeg)
+
+![/imgs/06_secao/06_42_02_pandas.jpeg](/imgs/06_secao/06_42_02_pandas.jpeg)
 
 ### 43. Módulos e Pacotes
 
+- Conjunto de funcionalidades organizadas em arquivos
+
+![/imgs/06_secao/06_43_01_modulos_pacotes.jpeg](/imgs/06_secao/06_43_01_modulos_pacotes.jpeg)
+
+![/imgs/06_secao/06_43_02_modulos_pacotes.jpeg](/imgs/06_secao/06_43_02_modulos_pacotes.jpeg)
+
+Uso sem nome do módulo
+
+![/imgs/06_secao/06_43_03_modulos_pacotes.jpeg](/imgs/06_secao/06_43_03_modulos_pacotes.jpeg)
+
+![/imgs/06_secao/06_43_04_modulos_pacotes.jpeg](/imgs/06_secao/06_43_04_modulos_pacotes.jpeg)
+
+![/imgs/06_secao/06_43_05_modulos_pacotes.jpeg](/imgs/06_secao/06_43_05_modulos_pacotes.jpeg)
+
+Módulos e pacotes Adicionais
+
+![/imgs/06_secao/06_43_06_modulos_pacotes.jpeg](/imgs/06_secao/06_43_06_modulos_pacotes.jpeg)
+
 ### 44. Funções
 
+- blocos de código reutilizáveis
+- podem ser chamados de qualquer parte do programa
+- podem ser chamados de outros programas
+
+![/imgs/06_secao/06_44_01_funcoes.jpeg](/imgs/06_secao/06_44_01_funcoes.jpeg)
+
+![/imgs/06_secao/06_44_02_funcoes.jpeg](/imgs/06_secao/06_44_02_funcoes.jpeg)
+
+![/imgs/06_secao/06_44_03_funcoes.jpeg](/imgs/06_secao/06_44_03_funcoes.jpeg)
+
+![/imgs/06_secao/06_44_04_funcoes.jpeg](/imgs/06_secao/06_44_04_funcoes.jpeg)
+
+![/imgs/06_secao/06_44_05_funcoes.jpeg](/imgs/06_secao/06_44_05_funcoes.jpeg)
+
 ### 45. Funções Padrão
+
+![/imgs/06_secao/06_45_1_funcoes_padroes.jpeg](/imgs/06_secao/06_45_1_funcoes_padroes.jpeg)
+
+![/imgs/06_secao/06_45_2_funcoes_padroes.jpeg](/imgs/06_secao/06_45_2_funcoes_padroes.jpeg)
+
+![/imgs/06_secao/06_45_3_funcoes_padroes.jpeg](/imgs/06_secao/06_45_3_funcoes_padroes.jpeg)
 
 ### 46. Referências Adicionais
 
@@ -652,7 +748,17 @@ colnames(CO2)
 
 ## <a name="parte7">7 - Seção 7: Prática em Python</a>
 
-
+### 47. Variáveis e Objetos
+### 48. Estruturas de Decisão
+### 49. Estruturas de Repetição
+### 50. Listas
+### 51. Dicionários, Sets e Tuplas
+### 52. Numpy
+### 53. Pandas
+### 54. Módulos e Pacotes
+### 55. Funções
+### 56. Funções Padrão
+### 57. Faça você mesmo
 
 [Voltar ao Índice](#indice)
 
